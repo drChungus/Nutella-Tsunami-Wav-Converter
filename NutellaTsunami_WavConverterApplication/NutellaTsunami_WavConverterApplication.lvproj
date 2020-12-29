@@ -12,9 +12,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="resamplingCore.vi" Type="VI" URL="../resamplingCore.vi"/>
+			<Item Name="Wave Write - 16bit Binary Simple.vi" Type="VI" URL="../Wave Write - 16bit Binary Simple.vi"/>
 		</Item>
 		<Item Name="MAIN.vi" Type="VI" URL="../MAIN.vi"/>
-		<Item Name="Wave Write - 16bit Binary Simple.vi" Type="VI" URL="../Wave Write - 16bit Binary Simple.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_2DArrToArrWfms.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_2DArrToArrWfms.vi"/>
