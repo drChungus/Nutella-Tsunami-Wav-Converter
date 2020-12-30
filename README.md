@@ -31,7 +31,10 @@ Once the software environment is set up you can either run the application by la
 ## How to use this application? ##
 The goal was to create a simple and intuitive interface for the program. Do not forget to place and flash the firmware with the .hex file first, and configure the device using the .ini file. See details on the initial configuration [in the user guide](https://robertsonics.com/tsunami-user-guide/).
 
+![alt text](https://raw.githubusercontent.com/drChungus/Nutella-Tsunami-Wav-Converter/main/resources/ui.png)
+
 How to use the application:
+
 1. Select Samples from 1-16
 2. Preview Samples (optional)
 3. Select Target Folder
