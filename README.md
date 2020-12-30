@@ -50,7 +50,7 @@ Some limitation of the current version is:
 - Stereo files can be created, but both channels will be same
 - Testing was done using the mono firmware
 
-*IMPORTANT: As now you can easily create countless sound banks, I highly recommend using the latest version of the [Tsunami firmware](https://drive.google.com/file/d/1GrqSQpR2VKMzPQoNLvJXjxqHPFFW95dF/view?fbclid=IwAR1-I4ni458oQEHdQdAj23qC7N8M2wlTcuJTn_DnCeNR7ct28mvp-F3CuHc)(v1.11). This is a beta release, but it allows you to have 256 trigger banks. You can find the .hex file and the .ini configurations I used for development and testing.*
+*IMPORTANT: As now you can easily create countless sound banks, I highly recommend using the latest version of the [Tsunami firmware](https://drive.google.com/file/d/1GrqSQpR2VKMzPQoNLvJXjxqHPFFW95dF/view?fbclid=IwAR1-I4ni458oQEHdQdAj23qC7N8M2wlTcuJTn_DnCeNR7ct28mvp-F3CuHc)(v1.11). This is a beta release, but it allows you to have 256 trigger banks. You can find the .hex file and the .ini configurations I used for development and testing in the resources folder.*
 
 **If you experience any bugs or issues feel free to report them using the [Issues](https://github.com/drChungus/Nutella-Tsunami-Wav-Converter/issues) tab!**
 
