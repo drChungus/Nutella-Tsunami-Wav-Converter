@@ -1,5 +1,5 @@
 # Nutella Tsunami WAV Converter
-#### Sample Converter Application for Nutella Tsunami ####
+#### Sample Converter Application for Tsunami WAV Trigger ####
 
 ## Summary ##
 Ever got upset by the tedious process of converting and renaming sound files for the [Tsunami WAV Trigger](https://www.sparkfun.com/products/13810) board? Well today is your lucky day! This application lets you collect, review and arrange WAV samples in the Tsunami banks, converts them to the required 44.1 kHz / 16bit / No meta-data format, and assigns the filenames according to the [proper naming convention](https://learn.sparkfun.com/tutorials/tsunami-hookup-guide).
