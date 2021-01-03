@@ -11,7 +11,7 @@ To use this method for placing WAV files on the SD card of the Tsunami you will 
 - Tsunami WAV Trigger
 - SD Card
 - SD Card reader or adapter
-- LabVIEW Run-Time or Development Environment (2019 or later) installed
+- LabVIEW Run-Time (2019 32-bit) or Development Environment (2019 or later) installed
 - This application
 
 ## Setting up the environment ##
@@ -19,14 +19,14 @@ This application is created using [LabVIEW](https://www.ni.com/hu-hu/shop/labvie
 Once the software environment is set up you can either run the application by launching the .exe file or open and edit the project. You only need to install LabVIEW once, any projects or executables can be used afterwards.
 
 ### For running the application: ###
-1. Download and install the [LabVIEW Run-Time Engine (2019 or later)](https://www.ni.com/hu-hu/support/downloads/software-products/download.labview.html#301182) 
+1. Download and install the [LabVIEW Run-Time Engine (2019 32-bit)](https://www.ni.com/hu-hu/support/downloads/software-products/download.labview.html#301182) 
 2. Download/Clone this repository and run the .exe file 
 
 ### For editing the VIs: ###
 1. Download and install [LabVIEW Community](https://www.ni.com/hu-hu/support/downloads/software-products/download.labview-community.html#343639)
 2. Open the .lvprj file
 3. Open the MAIN.VI for the main application
-4. Open subVIs for seeing subVIs  
+4. Open subVIs to see subVIs  
 
 ## How to use this application? ##
 The goal was to create a simple and intuitive interface for the program. Do not forget to place and flash the firmware with the .hex file first, and configure the device using the .ini file. See details on the initial configuration [in the user guide](https://robertsonics.com/tsunami-user-guide/).
@@ -49,6 +49,8 @@ Some limitation of the current version is:
 - The app does not check if files with the current indexes already exist in the target folder
 - Stereo files can be created, but both channels will be same
 - Testing was done using the mono firmware
+- You need to use LabVIEW 2019 32-bit Run-Time specifically to run the .exe file. Any version later than 2019 can be used for editing. 
+
 
 *IMPORTANT: As now you can easily create countless sound banks, I highly recommend using the latest version of the [Tsunami firmware](https://drive.google.com/file/d/1GrqSQpR2VKMzPQoNLvJXjxqHPFFW95dF/view?fbclid=IwAR1-I4ni458oQEHdQdAj23qC7N8M2wlTcuJTn_DnCeNR7ct28mvp-F3CuHc)(v1.11). This is a beta release, but it allows you to have 256 trigger banks. You can find the .hex file and the .ini configurations I used for development and testing in the resources folder.*
 
